@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Integral';
+    src: url('./fonts/IntegralCF-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.btn1{
+    font-family: 'Integral';
+    font-size: var(--fs-btn);
+}
+
+:root{
+    --fs-900: clamp(1rem, 2vw + 1rem, 2.5rem);
+    --fs-mini900: clamp(1rem, 1vw + 1rem, 1.5rem);
+    --fs-400: 1rem;
+    --fs-600: clamp(1rem, 0.1vw + 1rem, 1.2rem);
+    --fs-btn: 1rem;
+    --fs-mini400: clamp(.8rem, .1vw + 1rem, 1.1rem);
+    --fs-h1: clamp(2rem, 3vw + 1rem, 6rem);
+    --it-img: clamp(20rem, 20vh + 1rem, 30rem);
+    --it-large-img: clamp(30rem, 40vw + 3rem, 90rem);
+}
+
+.section__label__content span, .section__where__second span, .section__item__first span{
+    color: #444444;
+    line-height: 2;
+    letter-spacing: .25px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    padding-bottom: calc(42.4px - 1em);
+    font-size: var(--fs-400);
+}
+
+.section__logo__title h3, .section__label__content h3, .section__where__second h3,
+.section__item-02__first h3, .section__item__first h3{
+    font-family: 'Integral';
+    font-size: var(--fs-900);
+    margin: 0px;
+    padding-bottom: 1em;
+}
+.content__btn__item, .content__title, .content__title2{
+    font-family: 'Integral';
+}
+
+.content__title, .content__title2, .content__label{
+    color: #F6F6F6;
+}
+
+.content__title a{
+    color: #4584F3;
+}
+
+.content__label{
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.footer__logo{
+    font-family: 'Agency FB', arial;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+  ANIMACE TLAČÍTKA - START
+*/
+.btn1{
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    min-width: 200px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+
+}
+
+.leader-btn{
+    border-radius: 0.35em;
+    position: absolute;
+    transform: translate(0,0);
+    text-align: center;
+}
+
+.btn1::before{
+    border-radius: 0.35em;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+
+.btn1:hover::before{
+    transform: scaleX(1);
+}
+
+.btn1::before{
+    transform: scaleX(0);
+}
+/*
+  ANIMACE TLAČÍTKA - END
+*/

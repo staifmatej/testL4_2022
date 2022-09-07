@@ -1,0 +1,465 @@
+body{
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1920px;
+    margin-bottom: 0px;
+}
+
+.leader-btn--active-02{
+    background: #14A16C;
+}
+
+.section__item__first h3{
+    color: #14A16C;
+}
+
+.btn1--active-02{
+    color: #fff;
+}
+
+.btn1--active-02::before{
+    background: #B3B3B3;
+}
+
+.section__item{
+    background-color: #F6F6F6;
+    position: relative;
+}
+
+
+.section__item{
+    border-radius: 1em;
+    margin-bottom: 1rem;
+}
+
+.section__item__first{
+    margin-bottom: 5em;
+    padding: 1em;
+}
+
+.section__item__second{
+    position: relative;
+}
+
+.section__item__second img, .section__item-03__second img, .section__where__first, .section__where__third{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    height: 30rem;
+}
+
+.section__item__second img, .section__item-03__second img, .section__where__third{
+    border-radius: 0em 0em 1em 1em;
+}
+
+.section__where__first{
+    border-radius: 1em 1em 0em 0em;
+}
+
+.section__item__second--active-01::after{
+    content:"Spolupráce";
+    border-radius: 0em 0em 1em 1em;
+}
+
+.section__item__second--active-01::after, .section__where__first--active::after, 
+.section__where__third--active::after, .section__item-03__second--active-01::after{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--fs-mini400);
+    background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s ease;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.section__item__second--active-01:hover::after{
+    opacity: 0.5;
+}
+
+
+.section{
+    margin: 1rem;
+}
+
+.leader-btn--active-03{
+    background: #E85A4F;
+}
+
+.section__item-02__first h3{
+    color: #E85A4F;
+}
+
+.btn1--active-03:hover, .section__item-02__first p, .section__item__first span, .btn1--active-02:hover{
+    color: #535353;
+}
+
+.btn1--active-03{
+    color: #fff;
+}
+
+.btn1--active-03::before{
+    background: #B3B3B3;
+}
+
+.section__item-02__first p{
+    line-height: 2;
+    letter-spacing: .25px;
+    font-family: 'Roboto';
+    margin: 0px;
+}
+
+.section__item-02__first__content__title{
+    font-weight: 600;
+    font-size: var(--fs-600);
+}
+
+.section__item-02__first__content__label{
+    font-weight: 400;
+    font-size: var(--fs-400);
+}
+
+.section__item-02{
+    background-color: #F6F6F6;
+    position: relative;
+    border-radius: 1em;
+    margin-bottom: 1rem;
+}
+
+.section__item-02__first__content{
+    padding-bottom: 1em;
+}
+
+.section__item-02__first{
+    margin-bottom: 5em;
+    padding: 1em;
+}
+
+.section__item-03__second{
+    position: relative;
+}
+
+.section__item-03__second--active-01::after{
+    content:"Týmová spolupráce";
+    border-radius: 0em 0em 1em 1em;
+}
+
+.section__item-03__second--active-01:hover::after{
+    opacity: 0.5;
+}
+
+.section__where__first img, .section__where__third img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.section__where__third--active::after{
+    content:"Naše pobočka";
+}
+
+.section__where__first--active::after{
+    content:"Lokace pobočky";
+}
+
+.section__where__first--active:hover::after, .section__where__third--active:hover::after{
+    opacity: 0.5;
+}
+
+.section__where__second h3, .section__where__second h4{
+    color: #4056A1;
+    padding-bottom: 1em;
+}
+
+.section__where__second h4{
+    padding-top: .25em;
+}
+
+.section__where__second h4{
+    font-size: var(--fs-mini900);
+    margin-top: 1em;
+    font-family: 'Integral';
+    margin: 0px;
+}
+
+.section__where__second__phone, .section__where__second__email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 0.1em #707070;
+    max-width: 20rem;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    border-radius: .3em;
+}
+
+.section__where__second__phone__photo, .section__where__second__email__photo{
+    padding-right: 1em;
+}
+
+.section__where__second__phone__photo{
+    padding-top: .2em;
+}
+
+.section__where__second__email__photo{
+    padding-top: .3em;
+}
+
+.section__where__second__phone:hover, .section__where__second__email:hover{
+    box-shadow: 0 0 .1em #4584F3;
+    transition: 0.2s;
+}
+
+.section__where{
+    background: #F6F6F6;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+
+.leader-btn--active-04{
+    background: #4056A1;
+}
+
+.btn1--active-02:hover{
+    color: #535353;
+}
+
+.btn1--active-02{
+    color: #fff;
+}
+
+.btn1--active-02::before{
+    background: #B3B3B3;
+}
+
+.section__where__second{
+    position: relative;
+    padding: 1em;
+    padding-bottom: 6em;
+}
+
+.section__where__first img, .section__where__first--active::after{
+    border-radius: 1rem 1em 0em 0em;
+}
+
+.section__where__third img, .section__where__third--active::after{
+    border-radius: 0em 0em 1em 1em;
+}
+
+.section__label__content--active-02{
+    color: #4056A1;
+}
+
+.section__label__content--active-01{
+    color: #14A16C;
+}
+
+.section__label__content--active-03{
+    color: #E85A4F;
+}
+
+.leader-btn--active-05{
+    background: #14A16C;
+}
+
+.leader-btn--active-06{
+    background: #4056A1;
+}
+
+.leader-btn--active-07{
+    background: #E85A4F;
+}
+
+.btn1--active-01:hover{
+    color: #535353;
+}
+
+.btn1--active-01{
+    color: #fff;
+}
+
+.btn1--active-01::before{
+    background: #B3B3B3;
+}
+
+.section__label__content{
+    background-color: #F6F6F6;
+    position: relative;
+    padding: 1em;
+    padding-bottom: 6em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+
+.section__logo__title h3{
+    color: #14A16C;
+}
+
+.section__logo {
+    padding: 1em;
+    border-radius: 1rem;
+}
+
+.section__logo__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 1em;
+}
+
+.section__logo__content img{
+    height: auto;
+    top: 500px;
+    filter: brightness(0) invert(0.5);
+}
+
+.section__logo__content img:hover{
+    filter: none;
+    transition: 0.5s ease;
+}
+
+.section {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+
+.last-section__icon li{
+    transition: 0.2s linear;
+    margin: 0.25rem;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1C252D;
+    border-radius: 100%;
+}
+
+.last-section__icon img:hover, .last-section__up img:hover{
+    filter: none;
+}
+
+.last-section__icon img, .last-section__up img{
+    transition: 0.2s linear;
+    filter: brightness(0) invert(1);
+}
+
+.last-section__up{
+    transition: 0.2s linear;
+}
+
+.last-section__icon{
+    list-style-type: none;
+    display: flex;
+}
+
+.last-section{
+    background: #101922;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10rem;
+}
+
+.last-section__text a{
+    color: #4584F3;
+}
+
+.last-section__text{
+    color: #fff;
+    font-family: 'Agency FB', arial;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 10rem;
+}
+
+.social-media__icon li{
+    transition: 0.2s linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F6F6;
+    border-radius: 100%;
+}
+ 
+.social-media__icon svg:hover{
+    fill: #4584F3;
+}
+
+.social-media__icon img:hover{
+    filter: none;
+}
+
+.social-media__icon img{
+    transition: 0.2s linear;
+    filter: brightness(0%) invert(29%);
+}
+
+.first-section{
+    background: #2F303A;
+}
+
+.content__btn__item{
+    background: none;
+    border: none;
+    color: #2F303A;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    min-width: 200px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+}
+
+.content__btn{
+    background: #F6F6F6;
+    transform: translate(0%,0%);
+}
+
+.content__btn__item:hover{
+    color: #F6F6F6;
+}
+
+.content__btn__item::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #4584F3;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+
+.content__btn__item:hover::before{
+    transform: scaleX(1)
+}
+
+.content__btn__item::before{
+    transform: scaleX(0);
+}
+
+body {
+    width:100%;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content__img img{
+    max-width: 900px;
+}
+
